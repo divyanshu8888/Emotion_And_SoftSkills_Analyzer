@@ -1,0 +1,2 @@
+# Emotion_And_SoftSkills_Analyzer
+ Emotion and Soft Skills Tracker Bot: This project combines real-time emotion detection, speech recognition, and sentiment analysis to assess and track an individual's emotional state and soft skills during video and audio interactions. The bot provides valuable insights into mental health and soft skills, with future plans to integrate a healing bot and collaborate with NGOs for mental health support.
