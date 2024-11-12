@@ -1,21 +1,21 @@
-# Emotion & Soft Skills Tracker Bot
+# Emotion & Soft Skills Analyzer
 
 ## Overview
-This project involves a real-time bot that tracks and analyzes emotions, soft skills, and speech using webcam and microphone input. It leverages computer vision, speech recognition, and sentiment analysis to provide feedback on mental health and soft skills. The bot can be used for mental health assessment and improvement, as well as for recruitment processes to evaluate candidates' soft skills.
+The **Emotion & Soft Skills Analyzer** is a real-time bot designed to track and analyze emotions, soft skills, and speech. Using webcam and microphone input, this bot provides valuable feedback about an individual's emotional state, soft skills, and confidence. The application is useful for both **mental health assessments** and **recruitment processes**. It leverages computer vision, speech recognition, and sentiment analysis to offer real-time feedback on mental health and soft skills.
 
 ## Features
-- **Emotion Detection**: Tracks dominant emotions using DeepFace's emotion analysis and displays them on the webcam feed.
+- **Emotion Detection**: Tracks dominant emotions in real-time using DeepFace’s emotion analysis and displays them on the webcam feed.
 - **Soft Skills Analysis**: Uses sentiment analysis to evaluate speech and provide insights into soft skills.
 - **Confidence Detection**: Assesses if the user is looking straight into the camera, indicating confidence.
-- **Real-Time Feedback**: Provides real-time feedback on emotions, speech, and soft skills during the interaction.
-- **Recording & Sharing**: Allows the user to start and stop video recording and capture emotions and speech data.
+- **Real-Time Feedback**: Offers continuous feedback on emotions, speech, and soft skills during the interaction.
+- **Recording & Sharing**: Allows users to start and stop video recording, and capture emotions and speech data that can be shared for mental health consultation or recruitment evaluations.
 
 ## Tech Stack
 - **DeepFace**: For emotion detection using facial analysis.
 - **SpeechRecognition**: For transcribing audio to text in real-time.
 - **Transformers (HuggingFace)**: For sentiment analysis to track soft skills.
 - **OpenCV**: For video capture, face detection, and real-time display.
-- **Python**: The main programming language used for implementation.
+- **Python**: The primary programming language used for implementation.
 - **Threading**: For simultaneous video capture and audio transcription.
 
 ## Installation
@@ -24,7 +24,7 @@ To run the bot, ensure you have the following libraries installed:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/emotion-soft-skills-tracker.git
+    git clone https://github.com/divyanshu8888/Emotion_And_SoftSkills_Analyzer.git
     ```
 
 2. Install dependencies:
@@ -44,20 +44,22 @@ To run the bot, ensure you have the following libraries installed:
     python main.py
     ```
 
-2. Press `s` to start the video recording.
-3. Press `q` to stop the video recording.
-4. Press `c` to capture emotion analysis from the video.
+2. **Controls**:
+    - Press `s` to start the video recording.
+    - Press `q` to stop the video recording.
+    - Press `c` to capture emotion analysis from the video.
 
 ## Future Plans
-- Integration with NGOs for mental health tracking and providing necessary support.
-- Addition of a **Healing Bot** for real-time emotional support.
-- Improvement of emotion analysis with multiple models and expanded feedback mechanisms.
+- **NGO Integration**: Connect with mental health NGOs for real-time emotional support and consultation.
+- **Healing Bot**: Add a healing bot feature for providing real-time emotional support.
+- **Emotion Analysis Enhancement**: Implement multiple emotion detection models for better accuracy and feedback.
+- **Expand Soft Skills Analysis**: Improve soft skills analysis with more sophisticated models for evaluating communication, confidence, and leadership.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
-- [DeepFace](https://github.com/serengil/deepface)
-- [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
-- [Transformers by HuggingFace](https://huggingface.co/)
-- [OpenCV](https://opencv.org/)
+- [DeepFace](https://github.com/serengil/deepface) - Facial recognition and emotion detection library.
+- [SpeechRecognition](https://pypi.org/project/SpeechRecognition/) - Speech-to-text library.
+- [Transformers by HuggingFace](https://huggingface.co/) - Pre-trained sentiment analysis models.
+- [OpenCV](https://opencv.org/) - Open-source computer vision library.
